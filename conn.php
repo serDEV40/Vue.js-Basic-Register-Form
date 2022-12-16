@@ -1,6 +1,6 @@
 <?php
     try{
-        $db = new PDO("mysql:host=localhost;dbname=vue;charset=utf8","root","123456789");
+        $db = new PDO("mysql:host=localhost;dbname=vue;charset=utf8","root","");
     }catch(PDOExpception $error){
         echo $error->getMessage();
     }
